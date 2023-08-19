@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.title('Uber pickups in NYC')
-st.image('/images/uber_logo.png')
+st.image('images/Uber-logo.png')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
